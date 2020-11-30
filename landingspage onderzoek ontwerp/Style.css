@@ -1,0 +1,29 @@
+.div1{
+    width: 100%;
+    height: 60px;
+    background-color: red;
+    border: 1px;
+    opacity: 50%;
+
+}
+#SLIDE_BG{
+    width: 100;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBg 8s linear infinite 0s;
+    animation-name: achtergrond;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    background-image: url('foto3 onbewerkt.jpg');
+
+}
+@keyframes achtergrond{
+    0%{background-image: url('foto3 onbewerkt.jpg');}
+    25%{background-image: url('foto3 onbewerkt.jpg');}
+    50%{background-image: url('foto3 onbewerkt.jpg');}
+    75%{background-image: url('foto3 onbewerkt.jpg');}
+    100%{background-image: url('foto3 onbewerkt.jpg');}
+}
