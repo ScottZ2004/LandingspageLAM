@@ -23,6 +23,11 @@ header{
     padding: 40px 100px;
     z-index: 100000;
 }
+header.sticky{
+    padding: 5px 100px;
+    background: #fff;
+}
+
 header .logo{
     position: relative;
     font-weight: 700;
@@ -59,4 +64,9 @@ header ul li a{
     height: 100vh;
     background: url('foto3 onbewerkt.jpg');
     background-size: cover
+}
+header.sticky .logo
+
+header.sticky ul li a{
+    color: black;
 }
