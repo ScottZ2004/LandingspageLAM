@@ -44,6 +44,10 @@ header{
     align-items: center;
     
 }
+nav{
+    padding-right: 200px;
+}
+
 .logo{
     cursor: pointer;
 }
