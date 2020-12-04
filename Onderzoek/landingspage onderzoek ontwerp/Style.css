@@ -47,7 +47,6 @@
 #waarom-zo-leuk div p{
     color: black;
     font-size: 20px;
-    margin-top: 15px;
     
 }
 #waarom-zo-leuk div button{
@@ -57,9 +56,12 @@
 #waarom-zo-leuk div button:active {
     background-color: #6F4E37;
     opacity: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
 #waarom-zo-leuk div button:hover {
-    text-decoration: underline;
+    
+    background-color: #815e45;
 }
 #filmpje{
     padding-top: 50px;
@@ -80,6 +82,157 @@
     display: flex;
     justify-content: left;
 }
+#collectie-overzicht{
+    display: flex;
+    justify-content: left;
+}
+#text-collectie-overzicht{
+    width: 50%;
+    
+}
+#text-collectie-overzicht div{
+    
+    padding-top: 45px;
+    padding-left: 10px;
+    margin-top: 68px;
+    
+    padding-bottom: 370px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: left;
+}
+#text-collectie-overzicht div h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#text-collectie-overzicht div p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+#text-collectie-overzicht div button{
+    background-color: #6F4E37;
+    margin-top: 50px;
+}
+
+
+#text-collectie-overzicht div button:active {
+    background-color: #6F4E37;
+    opacity: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+#text-collectie-overzicht div button:hover {
+    
+    background-color: #815e45;
+}
+
+#slider-klein{
+    
+    width: 50%;
+    
+}  
+#slider-klein img{
+    height: 500px;
+    margin-left: 27px;
+    margin-top: 40px;
+    padding-left: 130px;
+    
+}
+#reviews{
+    justify-content: center;
+    
+    text-align: center;
+}
+#reviews h1{
+    margin-top: 40px;
+}
+.ratings{
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 450px;
+    padding-left:10px ;
+    padding-right: 10px;
+    justify-content: space-around;
+    display: flex;
+}
+.ratings div{
+    background-color: rgb(238, 238, 238);
+    margin-top: 7px;
+    margin-bottom: 0px;
+    margin-left: 7px;
+    margin-right: 7px;
+    padding-top: 50px;
+    padding-bottom: 120px;
+    border-radius: 25px;
+    width: 33%;
+}
+#rate-1{
+    color: black;
+}
+#rate-1 h3{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+#rate-1 p{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+#rate-1 h2{
+    color: white;
+    
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    padding-bottom: 30px;
+}
+
+#rate-2{
+    color: black;
+}
+#rate-2 h3{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+#rate-2 p{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+#rate-2 h2{
+    color: white;
+    
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    padding-bottom: 30px;
+}
+
+#rate-3{
+    color: black;
+}
+#rate-3 h3{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+#rate-3 p{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+#rate-3 h2{
+    color: white;
+    
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    padding-bottom: 30px;
+}
+
 
 .div2{
     width: 100%;
@@ -91,7 +244,7 @@
 }
 .div3{
     width: 100%;
-    height: 80vh;
+    height: 600px;
     background-color: white;
     border: 1px;
 }
@@ -139,14 +292,14 @@ nav{
 
 button{
     padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
+    background-color: rgb(197, 99, 33);
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 button:hover{
-    background-color: rgba(0, 136, 169, 1);
+    background-color: rgb(48, 169, 0);
 }
 
 /* vanaf nu is het voor de slide show */
