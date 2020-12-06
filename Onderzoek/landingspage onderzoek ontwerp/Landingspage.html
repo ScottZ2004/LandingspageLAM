@@ -5,31 +5,35 @@
     <link rel="stylesheet" href="Style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LAM</title>
-    
+    <header class="div1">
+            
+        <img class="logo" src="images/logo LAM.png" alt="logo">
+        <nav>
+            <ul class="nav__links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#over-">Over LAM</a></li>
+                <li><a href="#collectie-overzicht-">Collectie</a></li>
+                <li><a href="#reviews-">Reviews</a></li>
+                <li><a href="#prijzen-">Prijzen</a></li>
+                <li><a href="#contact-">Contact</a></li>
+                
+            </ul>
+        </nav>
+        
+    </header>
 </head>
 <body>
-    
-    <div class="slider" id="home"> <!--dit is de div van de slider-->
-        <header class="div1">
-            <img class="logo" src="images/logo LAM.png" alt="logo">
-            <nav>
-                <ul class="nav__links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#over-">Over LAM</a></li>
-                    <li><a href="#collectie-overzicht-">Collectie</a></li>
-                    <li><a href="#reviews-">Reviews</a></li>
-                    <li><a href="#contact-">Contact</a></li>
-                    
-                </ul>
-            </nav>
-            
-        <header> <!--dit is de balk bovenin-->
-        <div class="load"> 
+    <div class="slider" id="home">
+        <div class="load"></div>
+        <div class="content">
+            <div class="principal">
+                <div class="quiz">
+                    <h1>Welk kunsterk<br> ben jij?</h1>
+                    <button>Speel de quiz</button>
+                </div>
+            </div>
         </div>
-        
-        </div>
-    </div>
-    
+    </div> 
     <div class="div2" id="over-"></div>
     <div class="div3" id="over">
         <div id="waarom-zo-leuk">
@@ -47,7 +51,7 @@
     <div class="div3" id="collectie-overzicht">
         <div id="text-collectie-overzicht">
             <div>
-                <h1>Collectie overzicht</h1>
+                <h1>Collectie</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, aliquam. Nisi, quasi! Dolor excepturi blanditiis, sunt modi eum alias vitae repudiandae, doloremque mollitia sit distinctio laborum repellat aliquam. A, sed!</p>
                 <p><strong>Bewonder onze andere kunstwerken vandaag nog!</strong></p>
                 <button type="button" onclick="window.location.href='https://www.lamlisse.nl/en/'">bestel nu!</button>
@@ -80,10 +84,47 @@
             </div>
         </div>
     </div>
-    <div class="div2" id="contact-"></div>
-    <div class="div3" id="contact">contact gegevens en prijzen</div>
-    <div class="div2"></div>
+    <div class="div2" id="prijzen-"></div>
+    <div class="div3" id="prijzen">
+        <h1>Prijzen</h1>
+        <div class="prijsen">
+            <div id="prijs-1">
+                <h2>Kind</h2>
+                <p>van 5 t/m 17 jaar<br><small>(Kinderen onder vier gratis)</small></p>
+                <h3>€5,00</h1>
+            </div>
+            <div id="prijs-2">
+                <h2>Volwassene</h2>
+                <p>vanaf 18 jaar</p>
+                <h3>€7,50</h1>
+            </div>
+            <div id="prijs-3">
+                <h2>Sponsor ticket</h2>
+                <p>5 t/m 17 jaar gesponsord</p>
+                <h3>Gratis</h1>
+            </div>
+        </div>
+    </div>
+    
+    
     
     
 </body>
+<footer id="contact-">
+    <div>
+        <img src="images/Lam_logo_WT_wit_500px.png" alt="lam logo">
+        <p>Keukenhof 14 2161 AN Lisse</p>
+        <p>Postbus 224<br>2170AE Sassenheim</p>
+        <p>✆ 0252 508 800<br>✉ info@lamlisse.nl</p>
+    </div>
+    <div id="footer-center">
+        <h3>Openingstijden</h3>
+        <p>maandag & donderdag: gesloten</p>
+        <p>woensdag en vrijdag: 11:00- 17:00 uur</p>
+        <p>zaterdag & zondag: 11:00 - 17:00</p>
+        
+
+    </div>
+    <div>?</div>
+</footer>
 </html>
