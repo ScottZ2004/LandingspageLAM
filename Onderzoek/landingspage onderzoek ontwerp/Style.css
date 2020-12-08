@@ -421,8 +421,9 @@ div.quiz button:hover{
 footer{
     background-color: #6F4E37;
     width: 100%;
-    height: 500px;
+    height: 400px;
     display: flex;
+    
 }
 
 footer div{
@@ -430,29 +431,57 @@ footer div{
     margin-top: 7px;
     margin-left: 7px;
     margin-right: 7px;
-    margin-bottom: 7spx;
+    margin-bottom: 7px;
     padding-top: 50px;
     padding-bottom: 120px;
     height: 100%;
-    width: 33%;
+    width: 25%;
 }
 footer div img{
    width: 30vh; 
+   margin-bottom: 20px;
 }
 footer div p{
     color: white;
     padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 30px;
+    padding-bottom: 5px;
+    font-size: 15px;
 }
 footer div h3{
     color: white;
-    font-size: 40px;
+    font-size: 25px;
     padding-bottom: 40px;
-    text-align: center;
-}
-#footer-center{
     text-align: left;
+}
+#footer-center-left{
+    text-align: left;
+    margin-top: 10px;
+}    
+#footer-center-right{
+    text-align: left;
+    margin-top: 10px;
+
+}
+#footer-center-right p{
+    margin-bottom: 20px;
+}
+#footer-center-right input{
+    width: 200px;
+    height: 30px;
+    font-size: 17px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+#footer-center-right button{
+    width: 100px;
+    height: 50px;
+    background-color: #815e45;
+    text-align: center;
+    padding: 0px;
+}
+#footer-center-right button:hover{
+    
+
 }
 /* vanaf nu is het voor de slide show */
 *{
