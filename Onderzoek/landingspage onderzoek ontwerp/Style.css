@@ -64,12 +64,10 @@
 }
 #filmpje{
     padding-top: 50px;
-    
     width: 50%;
     align-items: center;
     margin-top: 80px;
     margin-left: 40px;
-    
 }
 
 
@@ -92,6 +90,7 @@
     width: 50%;
     
 }
+
 #text-collectie-overzicht div{
     
     padding-top: 45px;
@@ -131,12 +130,12 @@
 }
 
 #slider-klein{
-    
+    justify-content: right;
     width: 50%;
     
 }  
 #slider-klein img{
-    height: 500px;
+    height: 300px;
     margin-left: 27px;
     margin-top: 40px;
     padding-left: 130px;
