@@ -137,13 +137,13 @@ html{
 #slider-klein{
     justify-content: right;
     width: 50%;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center
 }  
 #slider-klein img{
     height: 300px;
-    margin-left: 27px;
-    margin-top: 40px;
-    padding-left: 130px;
+    
     
 }
 #reviews{
@@ -597,33 +597,33 @@ body {
 
 @keyframes slide{
     0%{
-        background-image: url('images/foto3 onbewerkt.jpg');
+        background-image: url('images/foto1.jpg');
     }
     20%{
-        background-image: url('images/foto3 onbewerkt.jpg');
+        background-image: url('images/foto1.jpg');
     }
     20.01%{
-        background-image: url('images/foto4 onbewerkt.jpg');
+        background-image: url('images/foto2.jpg');
     }
     40%{
-        background-image: url('images/foto4 onbewerkt.jpg');
+        background-image: url('images/foto2.jpg');
     }
     40.01%{
-        background-image: url('images/foto5 onbewerkt.jpg');
+        background-image: url('images/foto53.jpg');
     }
     60%{
-        background-image: url('images/foto5 onbewerkt.jpg');
+        background-image: url('images/foto3.jpg');
     }
     60.01%{
-        background-image: url('images/foto6 onbewerkt.jpg');
+        background-image: url('images/foto4.jpg');
     }
     80%{
-        background-image: url('images/foto6 onbewerkt.jpg');
+        background-image: url('images/foto4.jpg');
     }
     80.01%{
-        background-image: url('images/foto7 onbewerkt.jpg');
+        background-image: url('images/foto5.jpg');
     }
     100%{
-        background-image: url('images/foto7 onbewerkt.jpg');
+        background-image: url('images/foto5.jpg');
     }
 }
