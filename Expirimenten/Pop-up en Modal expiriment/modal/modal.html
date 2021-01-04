@@ -6,7 +6,7 @@
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
 
-/* The Modal (background) */
+/* The Modal (achtergrond) */
 .modal {
   display: none; 
   position: fixed;
@@ -30,7 +30,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   width: 80%;
 }
 
-/* The close knop */
+/* de sluit knop */
 .close {
   color: #aaaaaa;
   float: right;
@@ -56,7 +56,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 <!-- de Modal -->
 <div id="myModal" class="modal">
 
-  <!-- Modal content -->
+  <!-- Modal inhoud -->
   <div class="modal-content">
     <span class="close">&times;</span>
      <header><p><h1>Hier komt het begin van de quiz</h1></p></header>
@@ -67,22 +67,57 @@ body {font-family: Arial, Helvetica, sans-serif;}
     <p></p>
 
     <!-- radio buttons -->
+
+    <br>
+    <br>
+    <br>
+    <h3>Vraag1</h3>
+
     <div>
       <p><input type="radio" id="knop1" name="knop1">
       <label for="1e knop">1e knop</label><br></p>
     </div>
      
     <div>
-      <p><input type="radio" id="knop2" name="gender">
+      <p><input type="radio" id="knop2" name="knop2">
      <label for="2e knop">2e knop</label><br></p>
     </div>
      
     <div>
-      <p><input type="radio" id="knop3" name="gender">
-    <label for="3e knop">3e knop</label></p>
-  </div>
+      <p><input type="radio" id="knop3" name="knop3">
+      <label for="3e knop">3e knop</label></p>
+   </div>
+   <br>
+   <br>
+   <br>
+   
 
-    <footer>dit is de footer</footer>
+ 
+  <div class="div2" id="nog meer vragen"></div>
+
+  <br>
+  <br>
+  <br>
+  <h3>Vraag 2</h3>
+
+  <div>
+    <p><input type="radio" id="knop1" name="knop1">
+    <label for="1e knop">1e knop</label><br></p>
+  </div>
+   
+  <div>
+    <p><input type="radio" id="knop2" name="knop2">
+   <label for="2e knop">2e knop</label><br></p>
+  </div>
+   
+  <div>
+    <p><input type="radio" id="knop3" name="knop3">
+    <label for="3e knop">3e knop</label></p>
+ </div>
+ <br>
+ <br>
+ <br>
+
 
 
 <script>
@@ -133,15 +168,23 @@ footer {
   color: red;
 }
 
-header {
-  border: solid red;
-  color: solid black;
+.div2{
+    width: 100%;
+    height: 90px;
+    background-color: #6F4E37;
+    border: 1px;
 }
 
 
-div {
-  border: solid red 5px;
+.modal {
+  color: rgba(0, 0, 0, 0.315);
+  text-emphasis-color: black;
 }
+
+.h1 {
+  color: black;   
+}
+
 
 </style>
 
