@@ -8,6 +8,7 @@
     
 
 }
+button
 html{
     scroll-behavior: smooth;
 }
@@ -91,6 +92,7 @@ html{
     display: flex;
     justify-content: left;
 }
+
 #text-collectie-overzicht{
     width: 50%;
     
@@ -133,18 +135,71 @@ html{
     background-color: #815e45;
     transition: all 0.3s ease 0s;
 }
-
-#slider-klein{
-    justify-content: right;
-    width: 50%;
+#viewport{
+    width: 50% ;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    
+}
+#vorige-btn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+#volgende-btn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+#vorige-btn:hover{
+    opacity: 100%;
+}
+#volgende-btn:hover{
+    opacity: 100%;
+}
+.carousel-container{
+    width: 400px;
     display: flex;
     justify-content: center;
-    align-items: center
-}  
-#slider-klein img{
+    overflow:hidden;
+    position: relative;
     height: 300px;
     
     
+}
+
+#fotoslider{
+    display: flex;
+    width: 400px;
+    height: 300px;
+    flex-direction: row;
+    position: absolute;
+    left: 0;
+    transition-property: left;
+    transition-duration: 400ms;
+    transition-timing-function: ease-out;
+}
+
+.foto{
+    width: 400px;
+    height: 3000px
 }
 #reviews{
     justify-content: center;
@@ -409,7 +464,7 @@ header{
 
 button{
     padding: 22px 25px;
-    
+    background-color: #6F4E37;
     border: none;
     border-radius: 50px;
     cursor: pointer;

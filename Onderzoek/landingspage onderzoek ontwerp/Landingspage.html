@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="Style.css">
     <script src="js/ScriptSliderKlein.js"></script>
+    <script src="https://kit.fontawesome.com/07ecffbc15.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LAM</title>
     <header class="div1">
@@ -60,12 +61,20 @@
                 <button type="button" onclick="window.location.href='https://www.lamlisse.nl/en/'">bestel nu!</button>
             </div>
         </div>
-        <div id="slider-klein">
-                
-            <img src="images/foto1.jpg" alt="Foto slider klein">
-                
+        <div id="viewport">
+            <div class="carousel-container">
+                <i class="fas fa-arrow-left" id="vorige-btn"></i>
+                <i class="fas fa-arrow-right" id="volgende-btn"></i>
+                <div id="fotoslider">
+                    <div class="foto"><img src="images/foto1.jpg" alt="foto1"></div>
+                    <div class="foto"><img src="images/foto2.jpg" alt="foto2"></div>
+                    <div class="foto"><img src="images/foto3.jpg" alt="foto3"></div>
+                    <div class="foto"><img src="images/foto4.jpg" alt="foto4"></div>
+                    <div class="foto"><img src="images/foto5.jpg" alt="foto5"></div>
+                </div>
+            </div>
+            
         </div>
-        
     </div>
     <div class="div2" id="reviews-"></div>
     <div class="div3" id="reviews">
@@ -140,6 +149,7 @@
         <input type="text" placeholder="Vul hier je e-mail adres in">
         <br>
         <button>submit</button>
+        
     </div>
     <div id="footer-right">
         <h3>Taal</h3>
