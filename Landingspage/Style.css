@@ -196,11 +196,15 @@ html{
     transition-duration: 400ms;
     transition-timing-function: ease-out;
 }
+#text-fotoslider{
+    color: white;
+}
 
 .foto{
     width: 400px;
     height: 3000px
 }
+
 #reviews{
     justify-content: center;
     
