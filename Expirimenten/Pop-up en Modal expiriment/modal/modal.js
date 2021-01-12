@@ -31,9 +31,7 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
-function ready(){
 
-}
 
 // submit button (werkt niet)
 //let mijnButton = document.getElementById("mijnButton");
@@ -45,12 +43,83 @@ function ready(){
 
 // vanaf hier komt de code voor de quiz!!!!!!!!
 
-window.addEventListener("DOMContentLoaded", ready);
+
+
 
 
 function SpeelQuiz(){
     var c = 0;
-    var aw1 = document.vraagkeuzes.knop1.value;
-    c = 0 + aw1;
+    // vraag1
+    if (document.getElementById("knop1vraag1").checked){
+        c++;
+    } else if (document.getElementById("knop2vraag1").checked){
+        c++;
+        c++;
+    } else if (document.getElementById("knop3vraag1").checked){
+        c++;
+        c++;
+        c++;
+    }
+    // vraag2
+    if (document.getElementById("knop1vraag2").checked){
+        c++;
+        c++;
+    } else if (document.getElementById("knop2vraag2").checked){
+        c++;
+        
+    } else if (document.getElementById("knop3vraag2").checked){
+        c++;
+        c++;
+        c++;
+    }
+    // vraag3
+    if (document.getElementById("knop1vraag3").checked){
+        c++;
+        c++;
+    } else if (document.getElementById("knop2vraag3").checked){
+        c++;
+        c++;
+        c++;
+    } else if (document.getElementById("knop3vraag3").checked){
+        c++;
+        
+    }
+    // vraag4
+    if (document.getElementById("knop1vraag4").checked){
+        c++;
+        c++;
+        c++;
+    } else if (document.getElementById("knop2vraag4").checked){
+        c++;
+        c++;
+    } else if (document.getElementById("knop3vraag4").checked){
+        c++;
+        
+    }
+    // vraag5
+    if (document.getElementById("knop1vraag5").checked){
+        c++;
+        c++;
+    } else if (document.getElementById("knop2vraag5").checked){
+        c++;
+        c++;
+        c++;
+    } else if (document.getElementById("knop3vraag5").checked){
+        c++;
+        
+    }
+    // vraag6
+    if (document.getElementById("knop1vraag6").checked){
+        c++
+    } else if (document.getElementById("knop2vraag6").checked){
+        c++;
+        c++;
+        c++;
+    } else if (document.getElementById("knop3vraag6").checked){
+        c++;
+        c++;
+        
+    }
     console.log(c)
 }
+

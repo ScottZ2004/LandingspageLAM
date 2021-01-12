@@ -70,5 +70,6 @@ body {
 .vraagContainer{
     display: flex;
     align-content: center;
-    justify-content: center;
+    justify-content: space-between;
+
 }
