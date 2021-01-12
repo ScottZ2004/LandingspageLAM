@@ -46,3 +46,11 @@ function ready(){
 // vanaf hier komt de code voor de quiz!!!!!!!!
 
 window.addEventListener("DOMContentLoaded", ready);
+
+
+function SpeelQuiz(){
+    var c = 0;
+    var aw1 = document.vraagkeuzes.knop1.value;
+    c = 0 + aw1;
+    console.log(c)
+}

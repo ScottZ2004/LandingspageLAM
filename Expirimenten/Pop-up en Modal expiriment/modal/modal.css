@@ -1,6 +1,4 @@
-img {
-    border: 10px solid #555;
-}
+
 
 footer {
     padding: 30px;
@@ -69,4 +67,8 @@ body {
     cursor: pointer;
 }
 
-/* knopjes selecteren */
+.vraagContainer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
