@@ -45,10 +45,10 @@ window.onclick = function(event) {
 
 
 
-
+var c = 0;
 
 function SpeelQuiz(){
-    var c = 0;
+    
     // vraag1
     if (document.getElementById("knop1vraag1").checked){
         c++;
@@ -60,6 +60,7 @@ function SpeelQuiz(){
         c++;
         c++;
     }
+
     // vraag2
     if (document.getElementById("knop1vraag2").checked){
         c++;
@@ -72,6 +73,7 @@ function SpeelQuiz(){
         c++;
         c++;
     }
+
     // vraag3
     if (document.getElementById("knop1vraag3").checked){
         c++;
@@ -84,6 +86,7 @@ function SpeelQuiz(){
         c++;
         
     }
+
     // vraag4
     if (document.getElementById("knop1vraag4").checked){
         c++;
@@ -96,6 +99,7 @@ function SpeelQuiz(){
         c++;
         
     }
+
     // vraag5
     if (document.getElementById("knop1vraag5").checked){
         c++;
@@ -108,6 +112,7 @@ function SpeelQuiz(){
         c++;
         
     }
+
     // vraag6
     if (document.getElementById("knop1vraag6").checked){
         c++
@@ -120,6 +125,20 @@ function SpeelQuiz(){
         c++;
         
     }
-    console.log(c)
+    console.log(c);
+    eindscherm();
+}
+function eindscherm(){
+    if (c < 7){
+        alert("jij bent kunstwerk 1!!!");
+    }else if (c < 10){
+        alert("jij bent kunstwerk 2!!!");
+    }else if (c < 13){
+        alert("jij bent kunstwerk 3!!!");
+    }else if (c < 16){
+        alert("jij bent kunstwerk 4!!!");
+    }else if (c < 19){
+        alert("jij bent kunstwerk 5!!!");
+    }
 }
 
