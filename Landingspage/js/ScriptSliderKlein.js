@@ -113,7 +113,7 @@ function TextFoto4(){
 
 
 function TextFoto6(){
-    document.getElementById("text-fotoslider").innerHTML = "temporary";
+    document.getElementById("text-fotoslider").innerHTML = "Kunstwerk 'Food Chain Project'";
     document.getElementById("text-fotoslider").style.color = "black";
 }
 

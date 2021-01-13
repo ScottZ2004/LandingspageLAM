@@ -8,7 +8,8 @@ var knop3 = document.getElementById("knop3")
 
 // de modal
 var modal = document.getElementById("myModal");
-
+// var modal1 = document.getElementById()
+var modal2 = document.getElementById("myModal2")
 // de button die de modal opent
 var btn = document.getElementById("myBtn");
 
@@ -18,34 +19,32 @@ var span = document.getElementsByClassName("close")[0];
 // de modal openen wanneer er op de knop gebrukt word 
 btn.onclick = function openModal() {
     modal.style.display = "block";
+    
 }
 
 // sluit de modal wanneer de gebruiker op het kruisje(x)klikt
 span.onclick = function() {
     modal.style.display = "none";
+    modal2.style.display = "none";
 }
 
 // sluit de modal wanneer de gebruiker er buiten klikt
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
+        modal2.style.display = "none";
     }
 }
 
 
-// submit button (werkt niet)
-//let mijnButton = document.getElementById("mijnButton");
 
-//mijnButton.addEventListener("click", ()=>{
-                      
-//window.alert(datum + "Dit is een test om te kijken of de knop werkt.");
-//}) 
 
 // vanaf hier komt de code voor de quiz!!!!!!!!
 
 
 
 var c = 0;
+var foto = document.getElementById("fotoEindschermKlein");
 
 function SpeelQuiz(){
     
@@ -128,17 +127,28 @@ function SpeelQuiz(){
     console.log(c);
     eindscherm();
 }
+
 function eindscherm(){
     if (c < 7){
-        alert("jij bent kunstwerk 1!!!");
+        foto.src = "kunstwerkenfotos/kunstwerk1.jpg";
+        document.getElementById("naamKunst").innerHTML = "Jij bent het kunstwerk: 'Het laatste avondmaal!'";
     }else if (c < 10){
-        alert("jij bent kunstwerk 2!!!");
+        foto.src = "kunstwerkenfotos/kunstwerk2.jpg";
+        document.getElementById("naamKunst").innerHTML = "Jij bent het kunstwerk: 'Bon Appétit!'";
     }else if (c < 13){
-        alert("jij bent kunstwerk 3!!!");
+        foto.src = "kunstwerkenfotos/kunstwerk3.jpg";
+        document.getElementById("naamKunst").innerHTML = "Jij bent het kunstwerk: 'De Koffiepot'";
     }else if (c < 16){
-        alert("jij bent kunstwerk 4!!!");
+        foto.src = "kunstwerkenfotos/kunstwerk4.JPG";
+        document.getElementById("naamKunst").innerHTML = "Jij bent het kunstwerk: 'Woman with shopping bag'";
     }else if (c < 19){
-        alert("jij bent kunstwerk 5!!!");
+        foto.src = "kunstwerkenfotos/kunstwerk5.jpg";
+        document.getElementById("naamKunst").innerHTML = "Jij bent het kunstwerk: 'Food Chain Project'";
     }
+    modal.style.display="none";
+    modal2.style.display="block";
+    
 }
-
+function Home(){
+    location.reload();
+}
