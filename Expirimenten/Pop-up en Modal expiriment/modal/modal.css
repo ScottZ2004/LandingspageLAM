@@ -72,3 +72,23 @@ body {
     justify-content: space-between;
 
 }
+
+#inleveren{
+    padding: 27px 30px;
+    background-color: #6F4E37;
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+    color: white;
+    font-size: 40px;
+
+}
+#divButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fotos{
+    height: 250px;
+    width: auto;
+}
