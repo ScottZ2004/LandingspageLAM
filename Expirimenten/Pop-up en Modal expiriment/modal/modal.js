@@ -115,7 +115,7 @@ function SpeelQuiz(){
 
     // vraag6
     if (document.getElementById("knop1vraag6").checked){
-        c++
+        c++;
     } else if (document.getElementById("knop2vraag6").checked){
         c++;
         c++;

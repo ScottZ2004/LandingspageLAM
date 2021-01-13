@@ -1,0 +1,205 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font: 20px 'Source Sans Pro', sans-serif;
+  border: none;
+  box-sizing: border-box;
+}
+
+html, body,.glass {
+  text-align: left;
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  display: table;
+	
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+	background-image: url('https://res.cloudinary.com/thecodejedi/image/upload/v1490369649/colorful-building-blocks-for-kids-to-play-f4_yj84qy.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+}
+.glass::before {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-image: url('https://res.cloudinary.com/thecodejedi/image/upload/v1490294668/crayons-879973_1920_kdor2d.jpg');
+	background-size: cover;
+	content: ' ';
+	opacity: 0.4;
+}
+.glass{
+	background-color: white;
+}
+.glass.down{
+	transform: translateY(100%) translateY(-7rem);
+}
+.glass.down::before{
+	transform: translateY(-100%) translateY(7rem);
+}
+.glass.up, .glass.up::before{
+	transform: translateY(0);
+}
+.margin-base-vertical {
+	margin: 40px 0; 
+}
+.container {
+	padding-top: 20px;
+	background: transparent;
+}
+h1 {
+	font-weight: 600;
+	padding-top: 25px;
+	text-align: center;
+	font-size: 52px;
+}
+p {
+	text-align: center;
+	font-weight: 550;
+	font-size: 24px;
+}
+.panel {
+	background-color: #C3FFFF;
+
+}
+
+@-webkit-keyframes glowing {
+		0% {background-color: #015a9b; -webkit-box-shadow: 0 0 3px #015a9b;}
+		50% { background-color: #0094FF; -webkit-box-shadow: 0 0 10px #0094FF; }
+		100% { background-color: #015a9b; -webkit-box-shadow: 0 0 3px #015a9b; }
+	}
+	
+@-moz-keyframes glowing {
+  0% { background-color: #015a9b; -moz-box-shadow: 0 0 3px #015a9b; }
+  50% { background-color: #0094FF; -moz-box-shadow: 0 0 10px #0094FF; }
+  100% { background-color: #015a9b; -moz-box-shadow: 0 0 3px #015a9b; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #015a9b; box-shadow: 0 0 3px #015a9b; }
+  50% { background-color: #0094FF; box-shadow: 0 0 10px #0094FF; }
+  100% { background-color: #015a9b; box-shadow: 0 0 3px #015a9b; }
+}
+
+@keyframes glowing {
+  0% { background-color: #015a9b; box-shadow: 0 0 3px #015a9b; }
+  50% { background-color: #0094FF; box-shadow: 0 0 10px #0094FF; }
+  100% { background-color: #015a9b; box-shadow: 0 0 3px #015a9b; }
+	}
+@-webkit-keyframes glowingPurple {
+		0% {background-color: #5C0C7F; -webkit-box-shadow: 0 0 3px #5C0C7F;}
+		50% { background-color: #7D11AD; -webkit-box-shadow: 0 0 10px #7D11AD; }
+		100% { background-color: #5C0C7F; -webkit-box-shadow: 0 0 3px #5C0C7F; }
+	}
+	
+@-moz-keyframes glowingPurple {
+  0% { background-color: #5C0C7F; -moz-box-shadow: 0 0 3px #5C0C7F; }
+  50% { background-color: #7D11AD; -moz-box-shadow: 0 0 10px #7D11AD; }
+  100% { background-color: #5C0C7F; -moz-box-shadow: 0 0 3px #5C0C7F; }
+}
+
+@-o-keyframes glowingPurple {
+  0% { background-color: #5C0C7F; box-shadow: 0 0 3px #5C0C7F; }
+  50% { background-color: #7D11AD; box-shadow: 0 0 10px #7D11AD; }
+  100% { background-color: #5C0C7F; box-shadow: 0 0 3px #5C0C7F; }
+}
+
+@keyframes glowingPurple {
+  0% { background-color: #5C0C7F; box-shadow: 0 0 3px #5C0C7F; }
+  50% { background-color: #7D11AD; box-shadow: 0 0 10px #7D11AD; }
+  100% { background-color: #5C0C7F; box-shadow: 0 0 3px #5C0C7F; }
+	}
+
+@-webkit-keyframes glowingGold {
+		0% {background-color: #f39c12; -webkit-box-shadow: 0 0 3px #f39c12;}
+		50% { background-color: #f1c40f; -webkit-box-shadow: 0 0 10px #f1c40f; }
+		100% { background-color: #f39c12; -webkit-box-shadow: 0 0 3px #f39c12; }
+	}
+	
+@-moz-keyframes glowingGold {
+  0% { background-color: #f39c12; -moz-box-shadow: 0 0 3px #f39c12; }
+  50% { background-color: #f1c40f; -moz-box-shadow: 0 0 10px #f1c40f; }
+  100% { background-color: #f39c12; -moz-box-shadow: 0 0 3px #f39c12; }
+}
+
+@-o-keyframes glowingGold {
+  0% { background-color: #f39c12; box-shadow: 0 0 3px #f39c12; }
+  50% { background-color: #f1c40f; box-shadow: 0 0 10px #f1c40f; }
+  100% { background-color: #f39c12; box-shadow: 0 0 3px #f39c12; }
+}
+
+@keyframes glowingGold {
+  0% { background-color: #f39c12; box-shadow: 0 0 3px #f39c12; }
+  50% { background-color: #f1c40f; box-shadow: 0 0 10px #f1c40f; }
+  100% { background-color: #f39c12; box-shadow: 0 0 3px #f39c12; }
+	}
+	
+#age-button {
+	margin: 17px 0;
+	background-color: #2DA2C7;
+	border:none;
+	-webkit-animation: glowing 1500ms infinite;
+	-moz-animation: glowing 1500ms infinite;
+	-o-animation: glowing 1500ms infinite;
+	animation: glowing 1500ms infinite;
+}
+#miles-button{
+	margin: 17px 0;
+	background-color: #6F1099;
+	border: none;
+	margin-left: 170px;
+	-webkit-animation: glowingPurple 1500ms infinite;
+	-moz-animation: glowingPurple 1500ms infinite;
+	-o-animation: glowingPurple 1500ms infinite;
+	animation: glowingPurple 1500ms infinite;
+}
+#home-button{
+	margin: 17px 0;
+	background-color: #6F1099;
+	border: none;
+	margin-left: 170px;
+	-webkit-animation: glowingGold 1500ms infinite;
+	-moz-animation: glowingGold 1500ms infinite;
+	-o-animation: glowingGold1500ms infinite;
+	animation: glowingGold 1500ms infinite;
+}
+.text-center{
+	padding-bottom: 25px;
+}
+
+footer{
+	font: 15px 'Source Sans Pro';
+	font-weight: bold;
+	color: #34495e;
+	position: absolute;
+	display: inline;
+	/*right: 0;
+	bottom: 0;
+	left: 0;*/
+	padding-bottom: 20px;
+	/*margin-left: 10px;*/
+	margin: 25px 0 0 50px;
+	
+}
+
+a{
+	color: #34495e;
+	font: 25px 'Source Sans Pro';
+	font-weight: 800;	
+}
+
+#footerLink {
+		color: #34495e;
+	font: 15px 'Source Sans Pro';
+	font-weight: bold;	
+}
