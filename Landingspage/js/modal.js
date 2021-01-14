@@ -1,4 +1,3 @@
-
 // vanaf hier komt de code voor de code voor de modal
 // de knoppen 
 var knop1 = document.getElementById("knop1")
