@@ -91,29 +91,29 @@ function setuphoverevent(){
 }
 
 function TextFoto1(){
-    document.getElementById("text-fotoslider").innerHTML = "Kunstwerk: 'Het laatste avondmaal'";
+    document.getElementById("text-fotoslider").innerHTML = "Artwork: 'Het laatste avondmaal'";
     document.getElementById("text-fotoslider").style.color = "black";
 }
 
 function TextFoto2(){
-    document.getElementById("text-fotoslider").innerHTML = "Kunstwerk 'Bon Appétit!'";
+    document.getElementById("text-fotoslider").innerHTML = "Artwork: 'Bon Appétit!'";
     document.getElementById("text-fotoslider").style.color = "black";
 }
 
 function TextFoto3(){
-    document.getElementById("text-fotoslider").innerHTML = "Kunstwerk 'De Koffiepot'";
+    document.getElementById("text-fotoslider").innerHTML = "Artwork: 'De Koffiepot'";
     document.getElementById("text-fotoslider").style.color = "black";
 }
 
 function TextFoto4(){
-    document.getElementById("text-fotoslider").innerHTML = "Kunstwerk 'Woman with shopping bag'";
+    document.getElementById("text-fotoslider").innerHTML = "Artwork: 'Woman with shopping bag'";
     document.getElementById("text-fotoslider").style.color = "black";
 }
 
 
 
 function TextFoto6(){
-    document.getElementById("text-fotoslider").innerHTML = "Kunstwerk 'Food Chain Project'";
+    document.getElementById("text-fotoslider").innerHTML = "Artwork: 'Food Chain Project'";
     document.getElementById("text-fotoslider").style.color = "black";
 }
 
