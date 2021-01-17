@@ -574,6 +574,10 @@ footer div h3{
     background-color:  #a0826c;
 
 }
+.footer-right{
+    justify-content: center;
+    align-items: center;
+}
 
 
 
