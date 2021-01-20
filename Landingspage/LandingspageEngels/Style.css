@@ -428,7 +428,7 @@ header{
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    z-index: 10;
+    z-index: 11;
     width: 100%;
     background: inherit;
 }
@@ -574,9 +574,9 @@ footer div h3{
     background-color:  #a0826c;
 
 }
-.footer-right{
-    justify-content: center;
-    align-items: center;
+#footer-right{
+    flex-direction: column;
+    align-content: space-around;
 }
 
 
