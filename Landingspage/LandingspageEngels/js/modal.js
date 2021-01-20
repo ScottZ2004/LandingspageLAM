@@ -131,19 +131,19 @@ function SpeelQuiz(){
 function eindscherm(){
     if (c < 7){
         foto.src = "kunstwerkenfotos/kunstwerk1.jpg";
-        document.getElementById("naamKunst").innerHTML = "Jij bent het kunstwerk: 'Het laatste avondmaal!'";
+        document.getElementById("naamKunst").innerHTML = "You are the artwork: 'Het laatste avondmaal!'";
     }else if (c < 10){
         foto.src = "kunstwerkenfotos/kunstwerk2.jpg";
-        document.getElementById("naamKunst").innerHTML = "Jij bent het kunstwerk: 'Bon Appétit!'";
+        document.getElementById("naamKunst").innerHTML = "You are the artwork: 'Bon Appétit!'";
     }else if (c < 13){
         foto.src = "kunstwerkenfotos/kunstwerk3.jpg";
-        document.getElementById("naamKunst").innerHTML = "Jij bent het kunstwerk: 'De Koffiepot'";
+        document.getElementById("naamKunst").innerHTML = "You are the artwork:  'De Koffiepot'";
     }else if (c < 16){
         foto.src = "kunstwerkenfotos/kunstwerk4.JPG";
-        document.getElementById("naamKunst").innerHTML = "Jij bent het kunstwerk: 'Woman with shopping bag'";
+        document.getElementById("naamKunst").innerHTML = "You are the artwork:  'Woman with shopping bag'";
     }else if (c < 19){
         foto.src = "kunstwerkenfotos/kunstwerk5.jpg";
-        document.getElementById("naamKunst").innerHTML = "Jij bent het kunstwerk: 'Food Chain Project'";
+        document.getElementById("naamKunst").innerHTML = "You are the artwork:  'Food Chain Project'";
     }
     modal.style.display="none";
     modal2.style.display="block";
