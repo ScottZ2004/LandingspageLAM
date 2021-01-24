@@ -1,0 +1,64 @@
+#body{
+    background-color: rgb(132, 187, 235);
+}
+
+#radios{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+
+#radio1{
+    border: rgba(105, 50, 13, 0.993) solid 2px;
+    color: white;
+    background-color: rgba(105, 50, 13, 0.993);
+    border-radius: 15px;
+    width: 180px;
+    padding: 5px;
+    margin: 10px;
+}
+#radio2{
+    border: rgba(105, 50, 13, 0.993) solid 2px;
+    color: white;
+    background-color: rgba(105, 50, 13, 0.993);
+    border-radius: 15px;
+    width: 180px;
+    padding: 5px;
+    margin: 10px;
+}
+#radio3{
+    border: rgba(105, 50, 13, 0.993) solid 2px;
+    color: white;
+    background-color: rgba(105, 50, 13, 0.993);
+    border-radius: 15px;
+    width: 180px;
+    padding: 5px;
+    margin: 10px;
+}
+#radio4{
+    border: rgba(105, 50, 13, 0.993) solid 2px;
+    color: white;
+    background-color: rgba(105, 50, 13, 0.993);
+    border-radius: 15px;
+    width: 180px;
+    padding: 5px;
+    margin: 10px;
+}
+#radio1:hover{
+    color: rgb(42, 41, 41);
+}
+#radio2:hover{
+    color: rgb(42, 41, 41);
+}
+#radio3:hover{
+    color: rgb(42, 41, 41);
+}
+#radio4:hover{
+    color: rgb(42, 41, 41);
+}
+
