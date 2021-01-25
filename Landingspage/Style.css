@@ -5,11 +5,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
-
 }
-button,
-html{
+
+button,html{
     scroll-behavior: smooth;
 }
 
@@ -22,9 +20,6 @@ html{
     
     position: sticky;
     top: 0;
-    
-    
-
 }
 
 #waarom-zo-leuk{

@@ -1,0 +1,41 @@
+#container{
+    background-color: wheat;
+    height: auto;
+    width: 1000px;       
+}
+#vraag1{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.vr1{
+    height: 200px;
+    width: 400px;
+}
+.vr1:hover{
+    cursor: pointer;
+}
+#tekst-vr1{
+    display:flex;
+    justify-content: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+#vraag2{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.vr2{
+    height: 200px;
+    width: 400px;
+}
+.vr2:hover{
+    cursor: pointer;
+}
+#tekst-vr2{
+    display:flex;
+    justify-content: center;
+}
