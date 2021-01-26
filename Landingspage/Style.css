@@ -299,7 +299,6 @@ button,html{
 
 #prijzen{
     justify-content: center;
-    
     text-align: center;
 }
 #prijzen h1{
@@ -311,8 +310,8 @@ button,html{
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    padding-top: 10px;
     
+    padding-top: 10px;
     padding-left:10px ;
     padding-right: 10px;
     justify-content: space-around;
@@ -329,9 +328,7 @@ button,html{
     border-radius: 25px;
     width: 33%;
 }
-#prijs-1{
-    color: black;
-}
+
 #prijs-1 h3{
     font-size: 30px;
     padding-bottom: 10px;
@@ -345,14 +342,9 @@ button,html{
 }
 #prijs-1 h2{
     color: black;
-    
-    
     padding-bottom: 30px;
 }
 
-#prijs-2{
-    color: black;
-}
 #prijs-2 h3{
     font-size: 30px;
     padding-bottom: 10px;
@@ -366,12 +358,10 @@ button,html{
 }
 #prijs-2 h2{
     color: black;
-    
-    
     padding-bottom: 30px;
 }
 
-#prijs-3{
+#prijs-1, #prijs-2, #prijs-3{
     color: black;
 }
 #prijs-3 h3{
@@ -387,8 +377,6 @@ button,html{
 }
 #prijs-3 h2{
     color: black;
-    
-    
     padding-bottom: 30px;
 }
 
@@ -478,9 +466,7 @@ button{
 
 
 div.quiz h1{
-    font-size: 75px;
-    
-    
+    font-size: 75px;  
 }
 
 div.quiz button{
@@ -508,7 +494,6 @@ footer{
 }
 
 footer div{
-    
     margin-top: 7px;
     margin-left: 7px;
     margin-right: 7px;
@@ -537,15 +522,10 @@ footer div h3{
     padding-bottom: 40px;
     text-align: left;
 }
-#footer-center-left{
+#footer-center-left, #footer-center-right{
     text-align: left;
     margin-top: 10px;
 }    
-#footer-center-right{
-    text-align: left;
-    margin-top: 10px;
-
-}
 #footer-center-right p{
     margin-bottom: 20px;
 }
