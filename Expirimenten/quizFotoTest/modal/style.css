@@ -1,0 +1,100 @@
+
+#vraag1{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+.vraag{
+    height: 200px;
+    width: 200px;
+    border: 5px solid rgb(12, 12, 12, .4);
+    border-radius: 2%;
+    opacity: 85%;
+    margin: 10px;
+}
+.vraag:hover{
+    cursor: pointer;
+}
+#tekst-vr1{
+    display:flex;
+    justify-content: center;
+}
+
+#vraag2{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#tekst-vr2{
+    display:flex;
+    justify-content: center;
+}
+
+
+#tekst-vr3{
+    display:flex;
+    justify-content: center;
+}
+
+#vraag3{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#tekst-vr4{
+    display:flex;
+    justify-content: center;
+}
+
+#vraag4{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#tekst-vr5{
+    display:flex;
+    justify-content: center;
+}
+
+#vraag5{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#tekst-vr6{
+    display:flex;
+    justify-content: center;
+}
+
+#vraag6{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.tekstImage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 3px 3px rgba(0,0,0);
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.vragen-container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.Vragen-fotos{
+    margin-left: 200px;
+    margin-right: 200px;
+}

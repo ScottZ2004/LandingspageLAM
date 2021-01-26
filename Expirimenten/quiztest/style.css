@@ -1,64 +1,43 @@
+/*simpele opmaak voor quiz*/
 #body{
     background-color: rgb(132, 187, 235);
-}
-
-#radios{
-    display: inline-block;
+    display: flex;
     justify-content: center;
     align-items: center;
+}
+#container-radio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*alle radios*/
+#radios{
     background-color: white;
     width: 300px;
     height: 300px;
     border-radius: 15px;
 }
 
+/*de vier knoppen radios*/
+#radio1, #radio2, #radio3, #radio4{
+    border: rgba(105, 50, 13, 0.993) solid 2px;
+    color: white;
+    background-color: rgba(105, 50, 13, 0.993);
+    border-radius: 15px;
+    width: 180px;
+    padding: 5px;
+    margin: 20px;
+}
 
-#radio1{
-    border: rgba(105, 50, 13, 0.993) solid 2px;
-    color: white;
-    background-color: rgba(105, 50, 13, 0.993);
-    border-radius: 15px;
-    width: 180px;
-    padding: 5px;
-    margin: 10px;
+/*verandert de kleur van de tekst in de radio's*/
+#radio1:hover, #radio2:hover, #radio3:hover, #radio4:hover{
+    color: rgb(160, 154, 148);
 }
-#radio2{
-    border: rgba(105, 50, 13, 0.993) solid 2px;
-    color: white;
-    background-color: rgba(105, 50, 13, 0.993);
-    border-radius: 15px;
-    width: 180px;
-    padding: 5px;
-    margin: 10px;
+
+/*verandert de muis naar een pointer icoon wanneer je over de tekst schuift met je muis*/
+#radio1 label, #radio2 label, #radio3 label, #radio4 label{
+    cursor: pointer;
 }
-#radio3{
-    border: rgba(105, 50, 13, 0.993) solid 2px;
-    color: white;
-    background-color: rgba(105, 50, 13, 0.993);
-    border-radius: 15px;
-    width: 180px;
-    padding: 5px;
-    margin: 10px;
-}
-#radio4{
-    border: rgba(105, 50, 13, 0.993) solid 2px;
-    color: white;
-    background-color: rgba(105, 50, 13, 0.993);
-    border-radius: 15px;
-    width: 180px;
-    padding: 5px;
-    margin: 10px;
-}
-#radio1:hover{
-    color: rgb(42, 41, 41);
-}
-#radio2:hover{
-    color: rgb(42, 41, 41);
-}
-#radio3:hover{
-    color: rgb(42, 41, 41);
-}
-#radio4:hover{
-    color: rgb(42, 41, 41);
-}
+
+
 

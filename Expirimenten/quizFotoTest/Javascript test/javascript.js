@@ -277,7 +277,7 @@ function Vraag2(){
     }else if(countervr2aw3 == 1){
         countervr2 = 3;
         alert(countervr2)
-    }else if(countervr1aw2 == 1){
+    }else if(countervr2aw4 == 1){
         countervr2 = 4;
         alert(countervr2)
     }else{

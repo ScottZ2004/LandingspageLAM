@@ -8,9 +8,11 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-.vr1{
+.vraag{
     height: 200px;
     width: 400px;
+    margin: 0;
+    margin: auto;
 }
 .vr1:hover{
     cursor: pointer;
@@ -28,10 +30,7 @@ body{
     justify-content: center;
     flex-wrap: wrap;
 }
-.vr2{
-    height: 200px;
-    width: 400px;
-}
+
 .vr2:hover{
     cursor: pointer;
 }
