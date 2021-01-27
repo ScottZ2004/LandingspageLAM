@@ -6,7 +6,9 @@
     margin: 0;
     padding: 0;
 }
-
+#button-collectie{
+    margin-bottom: 40px;
+}
 button,html{
     scroll-behavior: smooth;
 }
