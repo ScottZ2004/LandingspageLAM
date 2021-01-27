@@ -374,7 +374,7 @@ var countervr3aw3 = 0;
 var countervr3aw4 = 0;
 var countervr3;
 
-//vr2aw1
+//vr3aw1
 function Klikvr3aw1(){
     countervr3aw1++;
     console.log(countervr3aw1);
@@ -1014,7 +1014,7 @@ var countervr = 0;
 var foto = document.getElementById("fotoEindschermKlein");
 function Eindscherm(){
     if(nognietIngevult > 0 ){
-        alert("Je hebt nog niet alle vragen ingevult.")
+        alert("Looks like you haven't picked an answer at one of the questions.")
         nognietIngevult = 0;  
     }else{
         countervr = countervr1 + countervr2 + countervr3 + countervr4 + countervr5 + countervr6;
@@ -1022,24 +1022,24 @@ function Eindscherm(){
         if(countervr < 7){
             // alert("je bent 1")
             foto.src = "kunstwerkenfotos/kunstwerk1.jpg";
-            document.getElementById("naamKunst").innerHTML = "Jij bent het kunstwerk: 'Het laatste avondmaal!'";
+            document.getElementById("naamKunst").innerHTML = "You are the artwork: 'Het laatste avondmaal!'";
         }else if(countervr < 12){
             foto.src = "kunstwerkenfotos/kunstwerk2.jpg";
-            document.getElementById("naamKunst").innerHTML = "Jij bent het kunstwerk: 'Bon Appétit!'";
+            document.getElementById("naamKunst").innerHTML = "You are the artwork: 'Bon Appétit!'";
         }else if(countervr < 16){
             // alert("3")
             foto.src = "kunstwerkenfotos/kunstwerk3.jpg";
-            document.getElementById("naamKunst").innerHTML = "Jij bent het kunstwerk: 'De Koffiepot'";
+            document.getElementById("naamKunst").innerHTML = "You are the artwork: 'De Koffiepot'";
         }else if(countervr < 20){
             // alert("4")
             foto.src = "kunstwerkenfotos/kunstwerk4.JPG";
-            document.getElementById("naamKunst").innerHTML = "Jij bent het kunstwerk: 'Woman with shopping bag'";
+            document.getElementById("naamKunst").innerHTML = "You are the artwork: 'Woman with shopping bag'";
         }else if(countervr < 25){
             //alert("5")
             foto.src = "kunstwerkenfotos/kunstwerk5.jpg";
-            document.getElementById("naamKunst").innerHTML = "Jij bent het kunstwerk: 'Food Chain Project'";
+            document.getElementById("naamKunst").innerHTML = "You are the artwork: 'Food Chain Project'";
         }else{
-            alert("er is iets fout gegaan");
+            alert("Oops! Something went wrong");
             location.reload();
         }
 
