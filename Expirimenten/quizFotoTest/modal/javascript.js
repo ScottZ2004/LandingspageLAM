@@ -23,7 +23,7 @@ span.onclick = function() {
 
 // sluit de modal wanneer de gebruiker er buiten klikt
 window.onclick = function(event) {
-    if (event.target == modal) {
+    if (event.target === modal) {
         modal.style.display = "none";
         modal2.style.display = "none";
     }
@@ -37,8 +37,6 @@ var countervr1aw1 = 0;
 var countervr1aw2 = 0;
 var countervr1aw3 = 0;
 var countervr1aw4 = 0;
-var countervr1aw5 = 0;
-var countervr1aw6 = 0;
 var countervr1 = 0;
 var countervr2 = 0;
 var countervr3 = 0;
@@ -50,29 +48,29 @@ var nognietIngevult = 0;
 function Klikvr1aw1(){
     countervr1aw1++;
     console.log(countervr1aw1);
-    if (countervr1aw1 == 2){
+    if (countervr1aw1 === 2){
         countervr1aw1 = 0;
         console.log(countervr1aw1);
     }
 
-    if (countervr1aw1 == 1){
+    if (countervr1aw1 === 1){
         document.getElementById("vr1aw1").style.border = "black solid 5px";
         document.getElementById("vr1aw1").style.opacity= "100%";
-    }else if(countervr1aw1 == 0){
+    }else if(countervr1aw1 === 0){
         document.getElementById("vr1aw1").style.border = "";
         document.getElementById("vr1aw1").style.opacity= "85%";
     }
 
     //met deze if statement kunnen er niet meerdere worden geselecteerd
-    if (countervr1aw1 == 1 && countervr1aw2 == 1){
+    if (countervr1aw1 === 1 && countervr1aw2 === 1){
         document.getElementById("vr1aw2").style.border = "";
         document.getElementById("vr1aw2").style.opacity= "85%";
         countervr1aw2 = 0;
-    }else if (countervr1aw1 == 1 && countervr1aw3 == 1){
+    }else if (countervr1aw1 === 1 && countervr1aw3 === 1){
         document.getElementById("vr1aw3").style.border = "";
         document.getElementById("vr1aw3").style.opacity= "85%";
         countervr1aw3 = 0;
-    }else if (countervr1aw1 == 1 && countervr1aw4 == 1){
+    }else if (countervr1aw1 === 1 && countervr1aw4 === 1){
         document.getElementById("vr1aw4").style.border = "";
         document.getElementById("vr1aw4").style.opacity= "85%";
         countervr1aw4 = 0;
@@ -86,27 +84,27 @@ function Klikvr1aw1(){
 function Klikvr1aw2(){
     countervr1aw2++;
     console.log(countervr1aw2);
-    if (countervr1aw2 == 2){
+    if (countervr1aw2 === 2){
         countervr1aw2 = 0;
         console.log(countervr1aw2);
     }
-    if (countervr1aw2 == 1){
+    if (countervr1aw2 === 1){
         document.getElementById("vr1aw2").style.border = "black solid 5px"
         document.getElementById("vr1aw2").style.opacity= "100%";
-    }else if(countervr1aw2 == 0){
+    }else if(countervr1aw2 === 0){
         document.getElementById("vr1aw2").style.border = ""
         document.getElementById("vr1aw2").style.opacity= "85%";
     }
 
-    if (countervr1aw2 == 1 && countervr1aw1 == 1){
+    if (countervr1aw2 === 1 && countervr1aw1 === 1){
         document.getElementById("vr1aw1").style.border = "";
         document.getElementById("vr1aw1").style.opacity= "85%";
         countervr1aw1 = 0;
-    }else if (countervr1aw2 == 1 && countervr1aw3 == 1){
+    }else if (countervr1aw2 === 1 && countervr1aw3 === 1){
         document.getElementById("vr1aw3").style.border = "";
         document.getElementById("vr1aw3").style.opacity= "85%";
         countervr1aw3 = 0;
-    }else if (countervr1aw2 == 1 && countervr1aw4 == 1){
+    }else if (countervr1aw2 === 1 && countervr1aw4 === 1){
         document.getElementById("vr1aw4").style.border = "";
         document.getElementById("vr1aw4").style.opacity= "85%";
         countervr1aw4 = 0;
@@ -120,27 +118,27 @@ function Klikvr1aw2(){
 function Klikvr1aw3(){
     countervr1aw3++;
     console.log(countervr1aw3);
-    if (countervr1aw3 == 2){
+    if (countervr1aw3 === 2){
         countervr1aw3 = 0;
         console.log(countervr1aw3);
     }
-    if (countervr1aw3 == 1){
+    if (countervr1aw3 === 1){
         document.getElementById("vr1aw3").style.border = "black solid 5px"
         document.getElementById("vr1aw3").style.opacity= "100%";
-    }else if(countervr1aw3 == 0){
+    }else if(countervr1aw3 === 0){
         document.getElementById("vr1aw3").style.border = ""
         document.getElementById("vr1aw3").style.opacity= "85%";
     }
 
-    if (countervr1aw3 == 1 && countervr1aw1 == 1){
+    if (countervr1aw3 === 1 && countervr1aw1 === 1){
         document.getElementById("vr1aw1").style.border = "";
         document.getElementById("vr1aw1").style.opacity= "85%";
         countervr1aw1 = 0;
-    }else if (countervr1aw3 == 1 && countervr1aw2 == 1){
+    }else if (countervr1aw3 === 1 && countervr1aw2 === 1){
         document.getElementById("vr1aw2").style.border = "";
         document.getElementById("vr1aw2").style.opacity= "85%";
         countervr1aw2 = 0;
-    }else if (countervr1aw3 == 1 && countervr1aw4 == 1){
+    }else if (countervr1aw3 === 1 && countervr1aw4 === 1){
         document.getElementById("vr1aw4").style.border = "";
         document.getElementById("vr1aw4").style.opacity= "85%";
         countervr1aw4 = 0;
@@ -152,27 +150,27 @@ function Klikvr1aw3(){
 function Klikvr1aw4(){
     countervr1aw4++;
     console.log(countervr1aw4);
-    if (countervr1aw4 == 2){
+    if (countervr1aw4 === 2){
         countervr1aw4 = 0;
         console.log(countervr1aw4);
     }
-    if (countervr1aw4 == 1){
+    if (countervr1aw4 === 1){
         document.getElementById("vr1aw4").style.border = "black solid 5px"
         document.getElementById("vr1aw4").style.opacity= "100%";
-    }else if(countervr1aw4 == 0){
+    }else if(countervr1aw4 === 0){
         document.getElementById("vr1aw4").style.border = ""
         document.getElementById("vr1aw4").style.opacity= "85%";
     }
 
-    if (countervr1aw4 == 1 && countervr1aw1 == 1){
+    if (countervr1aw4 === 1 && countervr1aw1 === 1){
         document.getElementById("vr1aw1").style.border = "";
         document.getElementById("vr1aw1").style.opacity= "85%";
         countervr1aw1 = 0;
-    }else if (countervr1aw4 == 1 && countervr1aw2 == 1){
+    }else if (countervr1aw4 === 1 && countervr1aw2 === 1){
         document.getElementById("vr1aw2").style.border = "";
         document.getElementById("vr1aw2").style.opacity= "85%";
         countervr1aw2 = 0;
-    }else if (countervr1aw4 == 1 && countervr1aw3 == 1){
+    }else if (countervr1aw4 === 1 && countervr1aw3 === 1){
         document.getElementById("vr1aw3").style.border = "";
         document.getElementById("vr1aw3").style.opacity= "85%";
         countervr1aw3 = 0;
@@ -184,16 +182,16 @@ function Klikvr1aw4(){
 
 
 function Vraag1(){
-    if(countervr1aw1 == 1){
+    if(countervr1aw1 === 1){
         countervr1 = 1;
         // alert(countervr1)
-    }else if(countervr1aw2 == 1){
+    }else if(countervr1aw2 === 1){
         countervr1 = 2;
         // alert(countervr1)
-    }else if(countervr1aw3 == 1){
+    }else if(countervr1aw3 === 1){
         countervr1 = 3;
         // alert(countervr1)
-    }else if(countervr1aw4 == 1){
+    }else if(countervr1aw4 === 1){
         countervr1 = 4;
         // alert(countervr1)
     }else{
@@ -215,29 +213,29 @@ var countervr2;
 function Klikvr2aw1(){
     countervr2aw1++;
     console.log(countervr2aw1);
-    if (countervr2aw1 == 2){
+    if (countervr2aw1 === 2){
         countervr2aw1 = 0;
         console.log(countervr2aw1);
     }
 
-    if (countervr2aw1 == 1){
+    if (countervr2aw1 === 1){
         document.getElementById("vr2aw1").style.border = "black solid 5px";
         document.getElementById("vr2aw1").style.opacity= "100%";
-    }else if(countervr2aw1 == 0){
+    }else if(countervr2aw1 === 0){
         document.getElementById("vr2aw1").style.border = "";
         document.getElementById("vr2aw1").style.opacity= "85%";
     }
 
     //met deze if statement kunnen er niet meerdere worden geselecteerd
-    if (countervr2aw1 == 1 && countervr2aw2 == 1){
+    if (countervr2aw1 === 1 && countervr2aw2 === 1){
         document.getElementById("vr2aw2").style.border = "";
         document.getElementById("vr2aw2").style.opacity= "85%";
         countervr2aw2 = 0;
-    }else if (countervr2aw1 == 1 && countervr2aw3 == 1){
+    }else if (countervr2aw1 === 1 && countervr2aw3 === 1){
         document.getElementById("vr2aw3").style.border = "";
         document.getElementById("vr2aw3").style.opacity= "85%";
         countervr2aw3 = 0;
-    }else if (countervr2aw1 == 1 && countervr2aw4 == 1){
+    }else if (countervr2aw1 === 1 && countervr2aw4 === 1){
         document.getElementById("vr2aw4").style.border = "";
         document.getElementById("vr2aw4").style.opacity= "85%";
         countervr2aw4 = 0;
@@ -251,27 +249,27 @@ function Klikvr2aw1(){
 function Klikvr2aw2(){
     countervr2aw2++;
     console.log(countervr2aw2);
-    if (countervr2aw2 == 2){
+    if (countervr2aw2 === 2){
         countervr2aw2 = 0;
         console.log(countervr2aw2);
     }
-    if (countervr2aw2 == 1){
+    if (countervr2aw2 === 1){
         document.getElementById("vr2aw2").style.border = "black solid 5px";
         document.getElementById("vr2aw2").style.opacity= "100%";
-    }else if(countervr2aw2 == 0){
+    }else if(countervr2aw2 === 0){
         document.getElementById("vr2aw2").style.border = "";
         document.getElementById("vr2aw2").style.opacity= "85%";
     }
 
-    if (countervr2aw2 == 1 && countervr2aw1 == 1){
+    if (countervr2aw2 === 1 && countervr2aw1 === 1){
         document.getElementById("vr2aw1").style.border = "";
         document.getElementById("vr2aw1").style.opacity= "85%";
         countervr2aw1 = 0;
-    }else if (countervr2aw2 == 1 && countervr2aw3 == 1){
+    }else if (countervr2aw2 === 1 && countervr2aw3 === 1){
         document.getElementById("vr2aw3").style.border = "";
         document.getElementById("vr2aw3").style.opacity= "85%";
         countervr2aw3 = 0;
-    }else if (countervr2aw2 == 1 && countervr2aw4 == 1){
+    }else if (countervr2aw2 === 1 && countervr2aw4 === 1){
         document.getElementById("vr2aw4").style.border = "";
         document.getElementById("vr2aw4").style.opacity= "85%";
         countervr2aw4 = 0;
@@ -285,27 +283,27 @@ function Klikvr2aw2(){
 function Klikvr2aw3(){
     countervr2aw3++;
     console.log(countervr2aw3);
-    if (countervr2aw3 == 2){
+    if (countervr2aw3 === 2){
         countervr2aw3 = 0;
         console.log(countervr2aw3);
     }
-    if (countervr2aw3 == 1){
+    if (countervr2aw3 === 1){
         document.getElementById("vr2aw3").style.border = "black solid 5px"
         document.getElementById("vr2aw3").style.opacity= "100%";
-    }else if(countervr2aw3 == 0){
+    }else if(countervr2aw3 === 0){
         document.getElementById("vr2aw3").style.border = ""
         document.getElementById("vr2aw3").style.opacity= "85%";
     }
 
-    if (countervr2aw3 == 1 && countervr2aw1 == 1){
+    if (countervr2aw3 === 1 && countervr2aw1 === 1){
         document.getElementById("vr2aw1").style.border = "";
         document.getElementById("vr2aw1").style.opacity= "85%";
         countervr2aw1 = 0;
-    }else if (countervr2aw3 == 1 && countervr2aw2 == 1){
+    }else if (countervr2aw3 === 1 && countervr2aw2 === 1){
         document.getElementById("vr2aw2").style.border = "";
         document.getElementById("vr2aw2").style.opacity= "85%";
         countervr2aw2 = 0;
-    }else if (countervr2aw3 == 1 && countervr2aw4 == 1){
+    }else if (countervr2aw3 === 1 && countervr2aw4 === 1){
         document.getElementById("vr2aw4").style.border = "";
         document.getElementById("vr2aw4").style.opacity= "85%";
         countervr2aw4 = 0;
@@ -317,27 +315,27 @@ function Klikvr2aw3(){
 function Klikvr2aw4(){
     countervr2aw4++;
     console.log(countervr2aw4);
-    if (countervr2aw4 == 2){
+    if (countervr2aw4 === 2){
         countervr2aw4 = 0;
         console.log(countervr2aw4);
     }
-    if (countervr2aw4 == 1){
+    if (countervr2aw4 === 1){
         document.getElementById("vr2aw4").style.border = "black solid 5px"
         document.getElementById("vr2aw4").style.opacity= "100%";
-    }else if(countervr2aw4 == 0){
+    }else if(countervr2aw4 === 0){
         document.getElementById("vr2aw4").style.border = ""
         document.getElementById("vr2aw4").style.opacity= "85%";
     }
 
-    if (countervr2aw4 == 1 && countervr2aw1 == 1){
+    if (countervr2aw4 === 1 && countervr2aw1 === 1){
         document.getElementById("vr2aw1").style.border = "";
         document.getElementById("vr2aw1").style.opacity= "85%";
         countervr2aw1 = 0;
-    }else if (countervr2aw4 == 1 && countervr2aw2 == 1){
+    }else if (countervr2aw4 === 1 && countervr2aw2 === 1){
         document.getElementById("vr2aw2").style.border = "";
         document.getElementById("vr2aw2").style.opacity= "85%";
         countervr2aw2 = 0;
-    }else if (countervr2aw4 == 1 && countervr2aw3 == 1){
+    }else if (countervr2aw4 === 1 && countervr2aw3 === 1){
         document.getElementById("vr2aw3").style.border = "";
         document.getElementById("vr2aw3").style.opacity= "85%";
         countervr2aw3 = 0;
@@ -349,16 +347,16 @@ function Klikvr2aw4(){
 
 
 function Vraag2(){
-    if(countervr2aw1 == 1){
+    if(countervr2aw1 === 1){
         countervr2 = 1;
         // alert(countervr2)
-    }else if(countervr2aw2 == 1){
+    }else if(countervr2aw2 === 1){
         countervr2 = 2;
         // alert(countervr2)
-    }else if(countervr2aw3 == 1){
+    }else if(countervr2aw3 === 1){
         countervr2 = 4;
         // alert(countervr2)
-    }else if(countervr2aw4 == 1){
+    }else if(countervr2aw4 === 1){
         countervr2 = 3;
         // alert(countervr2)
     }else{
@@ -380,29 +378,29 @@ var countervr3;
 function Klikvr3aw1(){
     countervr3aw1++;
     console.log(countervr3aw1);
-    if (countervr3aw1 == 2){
+    if (countervr3aw1 === 2){
         countervr3aw1 = 0;
         console.log(countervr3aw1);
     }
 
-    if (countervr3aw1 == 1){
+    if (countervr3aw1 === 1){
         document.getElementById("vr3aw1").style.border = "black solid 5px";
         document.getElementById("vr3aw1").style.opacity= "100%";
-    }else if(countervr3aw1 == 0){
+    }else if(countervr3aw1 === 0){
         document.getElementById("vr3aw1").style.border = "";
         document.getElementById("vr3aw1").style.opacity= "85%";
     }
 
     //met deze if statement kunnen er niet meerdere worden geselecteerd
-    if (countervr3aw1 == 1 && countervr3aw2 == 1){
+    if (countervr3aw1 === 1 && countervr3aw2 === 1){
         document.getElementById("vr3aw2").style.border = "";
         document.getElementById("vr3aw2").style.opacity= "85%";
         countervr3aw2 = 0;
-    }else if (countervr3aw1 == 1 && countervr3aw3 == 1){
+    }else if (countervr3aw1 === 1 && countervr3aw3 === 1){
         document.getElementById("vr3aw3").style.border = "";
         document.getElementById("vr3aw3").style.opacity= "85%";
         countervr3aw3 = 0;
-    }else if (countervr3aw1 == 1 && countervr3aw4 == 1){
+    }else if (countervr3aw1 === 1 && countervr3aw4 === 1){
         document.getElementById("vr3aw4").style.border = "";
         document.getElementById("vr3aw4").style.opacity= "85%";
         countervr3aw4 = 0;
@@ -416,27 +414,27 @@ function Klikvr3aw1(){
 function Klikvr3aw2(){
     countervr3aw2++;
     console.log(countervr3aw2);
-    if (countervr3aw2 == 2){
+    if (countervr3aw2 === 2){
         countervr3aw2 = 0;
         console.log(countervr3aw2);
     }
-    if (countervr3aw2 == 1){
+    if (countervr3aw2 === 1){
         document.getElementById("vr3aw2").style.border = "black solid 5px"
         document.getElementById("vr3aw2").style.opacity= "100%";
-    }else if(countervr3aw2 == 0){
+    }else if(countervr3aw2 === 0){
         document.getElementById("vr3aw2").style.border = ""
         document.getElementById("vr3aw2").style.opacity= "85%";
     }
 
-    if (countervr3aw2 == 1 && countervr3aw1 == 1){
+    if (countervr3aw2 === 1 && countervr3aw1 === 1){
         document.getElementById("vr3aw1").style.border = "";
         document.getElementById("vr3aw1").style.opacity= "85%";
         countervr3aw1 = 0;
-    }else if (countervr3aw2 == 1 && countervr3aw3 == 1){
+    }else if (countervr3aw2 === 1 && countervr3aw3 === 1){
         document.getElementById("vr3aw3").style.border = "";
         document.getElementById("vr3aw3").style.opacity= "85%";
         countervr3aw3 = 0;
-    }else if (countervr3aw2 == 1 && countervr3aw4 == 1){
+    }else if (countervr3aw2 === 1 && countervr3aw4 === 1){
         document.getElementById("vr3aw4").style.border = "";
         document.getElementById("vr3aw4").style.opacity= "85%";
         countervr3aw4 = 0;
@@ -450,27 +448,27 @@ function Klikvr3aw2(){
 function Klikvr3aw3(){
     countervr3aw3++;
     console.log(countervr3aw3);
-    if (countervr3aw3 == 2){
+    if (countervr3aw3 === 2){
         countervr3aw3 = 0;
         console.log(countervr3aw3);
     }
-    if (countervr3aw3 == 1){
+    if (countervr3aw3 === 1){
         document.getElementById("vr3aw3").style.border = "black solid 5px"
         document.getElementById("vr3aw3").style.opacity= "100%";
-    }else if(countervr3aw3 == 0){
+    }else if(countervr3aw3 === 0){
         document.getElementById("vr3aw3").style.border = ""
         document.getElementById("vr3aw3").style.opacity= "85%";
     }
 
-    if (countervr3aw3 == 1 && countervr3aw1 == 1){
+    if (countervr3aw3 === 1 && countervr3aw1 === 1){
         document.getElementById("vr3aw1").style.border = "";
         document.getElementById("vr3aw1").style.opacity= "85%";
         countervr3aw1 = 0;
-    }else if (countervr3aw3 == 1 && countervr3aw2 == 1){
+    }else if (countervr3aw3 === 1 && countervr3aw2 === 1){
         document.getElementById("vr3aw2").style.border = "";
         document.getElementById("vr3aw2").style.opacity= "85%";
         countervr3aw2 = 0;
-    }else if (countervr3aw3 == 1 && countervr3aw4 == 1){
+    }else if (countervr3aw3 === 1 && countervr3aw4 === 1){
         document.getElementById("vr3aw4").style.border = "";
         document.getElementById("vr3aw4").style.opacity= "85%";
         countervr3aw4 = 0;
@@ -482,27 +480,27 @@ function Klikvr3aw3(){
 function Klikvr3aw4(){
     countervr3aw4++;
     console.log(countervr3aw4);
-    if (countervr3aw4 == 2){
+    if (countervr3aw4 === 2){
         countervr3aw4 = 0;
         console.log(countervr3aw4);
     }
-    if (countervr3aw4 == 1){
+    if (countervr3aw4 === 1){
         document.getElementById("vr3aw4").style.border = "black solid 5px"
         document.getElementById("vr3aw4").style.opacity= "100%";
-    }else if(countervr3aw4 == 0){
+    }else if(countervr3aw4 === 0){
         document.getElementById("vr3aw4").style.border = ""
         document.getElementById("vr3aw4").style.opacity= "85%";
     }
 
-    if (countervr3aw4 == 1 && countervr3aw1 == 1){
+    if (countervr3aw4 === 1 && countervr3aw1 === 1){
         document.getElementById("vr3aw1").style.border = "";
         document.getElementById("vr3aw1").style.opacity= "85%";
         countervr3aw1 = 0;
-    }else if (countervr3aw4 == 1 && countervr3aw2 == 1){
+    }else if (countervr3aw4 === 1 && countervr3aw2 === 1){
         document.getElementById("vr3aw2").style.border = "";
         document.getElementById("vr3aw2").style.opacity= "85%";
         countervr3aw2 = 0;
-    }else if (countervr3aw4 == 1 && countervr3aw3 == 1){
+    }else if (countervr3aw4 === 1 && countervr3aw3 === 1){
         document.getElementById("vr3aw3").style.border = "";
         document.getElementById("vr3aw3").style.opacity= "85%";
         countervr3aw3 = 0;
@@ -511,16 +509,16 @@ function Klikvr3aw4(){
 
 
 function Vraag3(){
-    if(countervr3aw1 == 1){
+    if(countervr3aw1 === 1){
         countervr3 = 3;
         // alert(countervr3)
-    }else if(countervr3aw2 == 1){
+    }else if(countervr3aw2 === 1){
         countervr3 = 4;
         // alert(countervr3)
-    }else if(countervr3aw3 == 1){
+    }else if(countervr3aw3 === 1){
         countervr3 = 1;
         // alert(countervr3)
-    }else if(countervr3aw4 == 1){
+    }else if(countervr3aw4 === 1){
         countervr3 = 2;
         // alert(countervr3)
     }else{
@@ -541,29 +539,29 @@ var countervr4;
 function Klikvr4aw1(){
     countervr4aw1++;
     console.log(countervr4aw1);
-    if (countervr4aw1 == 2){
+    if (countervr4aw1 === 2){
         countervr4aw1 = 0;
         console.log(countervr4aw1);
     }
 
-    if (countervr4aw1 == 1){
+    if (countervr4aw1 === 1){
         document.getElementById("vr4aw1").style.border = "black solid 5px";
         document.getElementById("vr4aw1").style.opacity= "100%";
-    }else if(countervr4aw1 == 0){
+    }else if(countervr4aw1 === 0){
         document.getElementById("vr4aw1").style.border = "";
         document.getElementById("vr4aw1").style.opacity= "85%";
     }
 
     //met deze if statement kunnen er niet meerdere worden geselecteerd
-    if (countervr4aw1 == 1 && countervr4aw2 == 1){
+    if (countervr4aw1 === 1 && countervr4aw2 === 1){
         document.getElementById("vr4aw2").style.border = "";
         document.getElementById("vr4aw2").style.opacity= "85%";
         countervr4aw2 = 0;
-    }else if (countervr4aw1 == 1 && countervr4aw3 == 1){
+    }else if (countervr4aw1 === 1 && countervr4aw3 === 1){
         document.getElementById("vr4aw3").style.border = "";
         document.getElementById("vr4aw3").style.opacity= "85%";
         countervr4aw3 = 0;
-    }else if (countervr4aw1 == 1 && countervr4aw4 == 1){
+    }else if (countervr4aw1 === 1 && countervr4aw4 === 1){
         document.getElementById("vr4aw4").style.border = "";
         document.getElementById("vr4aw4").style.opacity= "85%";
         countervr4aw4 = 0;
@@ -577,27 +575,27 @@ function Klikvr4aw1(){
 function Klikvr4aw2(){
     countervr4aw2++;
     console.log(countervr4aw2);
-    if (countervr4aw2 == 2){
+    if (countervr4aw2 === 2){
         countervr4aw2 = 0;
         console.log(countervr4aw2);
     }
-    if (countervr4aw2 == 1){
+    if (countervr4aw2 === 1){
         document.getElementById("vr4aw2").style.border = "black solid 5px"
         document.getElementById("vr4aw2").style.opacity= "100%";
-    }else if(countervr4aw2 == 0){
+    }else if(countervr4aw2 === 0){
         document.getElementById("vr4aw2").style.border = ""
         document.getElementById("vr4aw2").style.opacity= "85%";
     }
 
-    if (countervr4aw2 == 1 && countervr4aw1 == 1){
+    if (countervr4aw2 === 1 && countervr4aw1 === 1){
         document.getElementById("vr4aw1").style.border = "";
         document.getElementById("vr4aw1").style.opacity= "85%";
         countervr4aw1 = 0;
-    }else if (countervr4aw2 == 1 && countervr4aw3 == 1){
+    }else if (countervr4aw2 === 1 && countervr4aw3 === 1){
         document.getElementById("vr4aw3").style.border = "";
         document.getElementById("vr4aw3").style.opacity= "85%";
         countervr4aw3 = 0;
-    }else if (countervr4aw2 == 1 && countervr4aw4 == 1){
+    }else if (countervr4aw2 === 1 && countervr4aw4 === 1){
         document.getElementById("vr4aw4").style.border = "";
         document.getElementById("vr4aw4").style.opacity= "85%";
         countervr4aw4 = 0;
@@ -611,27 +609,27 @@ function Klikvr4aw2(){
 function Klikvr4aw3(){
     countervr4aw3++;
     console.log(countervr4aw3);
-    if (countervr4aw3 == 2){
+    if (countervr4aw3 === 2){
         countervr4aw3 = 0;
         console.log(countervr4aw3);
     }
-    if (countervr4aw3 == 1){
+    if (countervr4aw3 === 1){
         document.getElementById("vr4aw3").style.border = "black solid 5px"
         document.getElementById("vr4aw3").style.opacity= "100%";
-    }else if(countervr4aw3 == 0){
+    }else if(countervr4aw3 === 0){
         document.getElementById("vr4aw3").style.border = ""
         document.getElementById("vr4aw3").style.opacity= "85%";
     }
 
-    if (countervr4aw3 == 1 && countervr4aw1 == 1){
+    if (countervr4aw3 === 1 && countervr4aw1 === 1){
         document.getElementById("vr4aw1").style.border = "";
         document.getElementById("vr4aw1").style.opacity= "85%";
         countervr4aw1 = 0;
-    }else if (countervr4aw3 == 1 && countervr4aw2 == 1){
+    }else if (countervr4aw3 === 1 && countervr4aw2 === 1){
         document.getElementById("vr4aw2").style.border = "";
         document.getElementById("vr4aw2").style.opacity= "85%";
         countervr4aw2 = 0;
-    }else if (countervr4aw3 == 1 && countervr4aw4 == 1){
+    }else if (countervr4aw3 === 1 && countervr4aw4 === 1){
         document.getElementById("vr4aw4").style.border = "";
         document.getElementById("vr4aw4").style.opacity= "85%";
         countervr4aw4 = 0;
@@ -643,27 +641,27 @@ function Klikvr4aw3(){
 function Klikvr4aw4(){
     countervr4aw4++;
     console.log(countervr4aw4);
-    if (countervr4aw4 == 2){
+    if (countervr4aw4 === 2){
         countervr4aw4 = 0;
         console.log(countervr4aw4);
     }
-    if (countervr4aw4 == 1){
+    if (countervr4aw4 === 1){
         document.getElementById("vr4aw4").style.border = "black solid 5px"
         document.getElementById("vr4aw4").style.opacity= "100%";
-    }else if(countervr4aw4 == 0){
+    }else if(countervr4aw4 === 0){
         document.getElementById("vr4aw4").style.border = ""
         document.getElementById("vr4aw4").style.opacity= "85%";
     }
 
-    if (countervr4aw4 == 1 && countervr4aw1 == 1){
+    if (countervr4aw4 === 1 && countervr4aw1 === 1){
         document.getElementById("vr4aw1").style.border = "";
         document.getElementById("vr4aw1").style.opacity= "85%";
         countervr4aw1 = 0;
-    }else if (countervr4aw4 == 1 && countervr4aw2 == 1){
+    }else if (countervr4aw4 === 1 && countervr4aw2 === 1){
         document.getElementById("vr4aw2").style.border = "";
         document.getElementById("vr4aw2").style.opacity= "85%";
         countervr4aw2 = 0;
-    }else if (countervr4aw4 == 1 && countervr4aw3 == 1){
+    }else if (countervr4aw4 === 1 && countervr4aw3 === 1){
         document.getElementById("vr4aw3").style.border = "";
         document.getElementById("vr4aw3").style.opacity= "85%";
         countervr4aw3 = 0;
@@ -672,16 +670,16 @@ function Klikvr4aw4(){
 
 
 function Vraag4(){
-    if(countervr4aw1 == 1){
+    if(countervr4aw1 === 1){
         countervr4 = 3;
         // alert(countervr4)
-    }else if(countervr4aw2 == 1){
+    }else if(countervr4aw2 === 1){
         countervr4 = 4;
         // alert(countervr4)
-    }else if(countervr4aw3 == 1){
+    }else if(countervr4aw3 === 1){
         countervr4 = 1;
         // alert(countervr4)
-    }else if(countervr4aw4 == 1){
+    }else if(countervr4aw4 === 1){
         countervr4 = 2;
         // alert(countervr4)
     }else{
@@ -702,29 +700,29 @@ var countervr5;
 function Klikvr5aw1(){
     countervr5aw1++;
     console.log(countervr5aw1);
-    if (countervr5aw1 == 2){
+    if (countervr5aw1 === 2){
         countervr5aw1 = 0;
         console.log(countervr5aw1);
     }
 
-    if (countervr5aw1 == 1){
+    if (countervr5aw1 === 1){
         document.getElementById("vr5aw1").style.border = "black solid 5px";
         document.getElementById("vr5aw1").style.opacity= "100%";
-    }else if(countervr5aw1 == 0){
+    }else if(countervr5aw1 === 0){
         document.getElementById("vr5aw1").style.border = "";
         document.getElementById("vr5aw1").style.opacity= "85%";
     }
 
     //met deze if statement kunnen er niet meerdere worden geselecteerd
-    if (countervr5aw1 == 1 && countervr5aw2 == 1){
+    if (countervr5aw1 === 1 && countervr5aw2 === 1){
         document.getElementById("vr5aw2").style.border = "";
         document.getElementById("vr5aw2").style.opacity= "85%";
         countervr5aw2 = 0;
-    }else if (countervr5aw1 == 1 && countervr5aw3 == 1){
+    }else if (countervr5aw1 === 1 && countervr5aw3 === 1){
         document.getElementById("vr5aw3").style.border = "";
         document.getElementById("vr5aw3").style.opacity= "85%";
         countervr5aw3 = 0;
-    }else if (countervr5aw1 == 1 && countervr5aw4 == 1){
+    }else if (countervr5aw1 === 1 && countervr5aw4 === 1){
         document.getElementById("vr5aw4").style.border = "";
         document.getElementById("vr5aw4").style.opacity= "85%";
         countervr5aw4 = 0;
@@ -738,27 +736,27 @@ function Klikvr5aw1(){
 function Klikvr5aw2(){
     countervr5aw2++;
     console.log(countervr5aw2);
-    if (countervr5aw2 == 2){
+    if (countervr5aw2 === 2){
         countervr5aw2 = 0;
         console.log(countervr5aw2);
     }
-    if (countervr5aw2 == 1){
+    if (countervr5aw2 === 1){
         document.getElementById("vr5aw2").style.border = "black solid 5px"
         document.getElementById("vr5aw2").style.opacity= "100%";
-    }else if(countervr5aw2 == 0){
+    }else if(countervr5aw2 === 0){
         document.getElementById("vr5aw2").style.border = ""
         document.getElementById("vr5aw2").style.opacity= "85%";
     }
 
-    if (countervr5aw2 == 1 && countervr5aw1 == 1){
+    if (countervr5aw2 === 1 && countervr5aw1 === 1){
         document.getElementById("vr5aw1").style.border = "";
         document.getElementById("vr5aw1").style.opacity= "85%";
         countervr5aw1 = 0;
-    }else if (countervr5aw2 == 1 && countervr5aw3 == 1){
+    }else if (countervr5aw2 === 1 && countervr5aw3 === 1){
         document.getElementById("vr5aw3").style.border = "";
         document.getElementById("vr5aw3").style.opacity= "85%";
         countervr5aw3 = 0;
-    }else if (countervr5aw2 == 1 && countervr5aw4 == 1){
+    }else if (countervr5aw2 === 1 && countervr5aw4 === 1){
         document.getElementById("vr5aw4").style.border = "";
         document.getElementById("vr5aw4").style.opacity= "85%";
         countervr5aw4 = 0;
@@ -772,27 +770,27 @@ function Klikvr5aw2(){
 function Klikvr5aw3(){
     countervr5aw3++;
     console.log(countervr5aw3);
-    if (countervr5aw3 == 2){
+    if (countervr5aw3 === 2){
         countervr5aw3 = 0;
         console.log(countervr5aw3);
     }
-    if (countervr5aw3 == 1){
+    if (countervr5aw3 === 1){
         document.getElementById("vr5aw3").style.border = "black solid 5px"
         document.getElementById("vr5aw3").style.opacity= "100%";
-    }else if(countervr5aw3 == 0){
+    }else if(countervr5aw3 === 0){
         document.getElementById("vr5aw3").style.border = ""
         document.getElementById("vr5aw3").style.opacity= "85%";
     }
 
-    if (countervr5aw3 == 1 && countervr5aw1 == 1){
+    if (countervr5aw3 === 1 && countervr5aw1 === 1){
         document.getElementById("vr5aw1").style.border = "";
         document.getElementById("vr5aw1").style.opacity= "85%";
         countervr5aw1 = 0;
-    }else if (countervr5aw3 == 1 && countervr5aw2 == 1){
+    }else if (countervr5aw3 === 1 && countervr5aw2 === 1){
         document.getElementById("vr5aw2").style.border = "";
         document.getElementById("vr5aw2").style.opacity= "85%";
         countervr5aw2 = 0;
-    }else if (countervr5aw3 == 1 && countervr5aw4 == 1){
+    }else if (countervr5aw3 === 1 && countervr5aw4 === 1){
         document.getElementById("vr5aw4").style.border = "";
         document.getElementById("vr5aw4").style.opacity= "85%";
         countervr5aw4 = 0;
@@ -804,27 +802,27 @@ function Klikvr5aw3(){
 function Klikvr5aw4(){
     countervr5aw4++;
     console.log(countervr5aw4);
-    if (countervr5aw4 == 2){
+    if (countervr5aw4 === 2){
         countervr5aw4 = 0;
         console.log(countervr5aw4);
     }
-    if (countervr5aw4 == 1){
+    if (countervr5aw4 === 1){
         document.getElementById("vr5aw4").style.border = "black solid 5px"
         document.getElementById("vr5aw4").style.opacity= "100%";
-    }else if(countervr5aw4 == 0){
+    }else if(countervr5aw4 === 0){
         document.getElementById("vr5aw4").style.border = ""
         document.getElementById("vr5aw4").style.opacity= "85%";
     }
 
-    if (countervr5aw4 == 1 && countervr5aw1 == 1){
+    if (countervr5aw4 === 1 && countervr5aw1 === 1){
         document.getElementById("vr5aw1").style.border = "";
         document.getElementById("vr5aw1").style.opacity= "85%";
         countervr5aw1 = 0;
-    }else if (countervr5aw4 == 1 && countervr5aw2 == 1){
+    }else if (countervr5aw4 === 1 && countervr5aw2 === 1){
         document.getElementById("vr5aw2").style.border = "";
         document.getElementById("vr5aw2").style.opacity= "85%";
         countervr5aw2 = 0;
-    }else if (countervr5aw4 == 1 && countervr5aw3 == 1){
+    }else if (countervr5aw4 === 1 && countervr5aw3 === 1){
         document.getElementById("vr5aw3").style.border = "";
         document.getElementById("vr5aw3").style.opacity= "85%";
         countervr5aw3 = 0;
@@ -833,16 +831,16 @@ function Klikvr5aw4(){
 
 
 function Vraag5(){
-    if(countervr5aw1 == 1){
+    if(countervr5aw1 === 1){
         countervr5 = 3
         // alert(countervr5)
-    }else if(countervr5aw2 == 1){
+    }else if(countervr5aw2 === 1){
         countervr5 = 2;
         // alert(countervr5)
-    }else if(countervr5aw3 == 1){
+    }else if(countervr5aw3 === 1){
         countervr5 = 1;
         // alert(countervr5)
-    }else if(countervr5aw4 == 1){
+    }else if(countervr5aw4 === 1){
         countervr5 = 4;
         // alert(countervr5)
     }else{
@@ -864,29 +862,29 @@ var countervr6;
 function Klikvr6aw1(){
     countervr6aw1++;
     console.log(countervr6aw1);
-    if (countervr6aw1 == 2){
+    if (countervr6aw1 === 2){
         countervr6aw1 = 0;
         console.log(countervr6aw1);
     }
 
-    if (countervr6aw1 == 1){
+    if (countervr6aw1 === 1){
         document.getElementById("vr6aw1").style.border = "black solid 5px";
         document.getElementById("vr6aw1").style.opacity= "100%";
-    }else if(countervr6aw1 == 0){
+    }else if(countervr6aw1 === 0){
         document.getElementById("vr6aw1").style.border = "";
         document.getElementById("vr6aw1").style.opacity= "85%";
     }
 
     //met deze if statement kunnen er niet meerdere worden geselecteerd
-    if (countervr6aw1 == 1 && countervr6aw2 == 1){
+    if (countervr6aw1 === 1 && countervr6aw2 === 1){
         document.getElementById("vr6aw2").style.border = "";
         document.getElementById("vr6aw2").style.opacity= "85%";
         countervr6aw2 = 0;
-    }else if (countervr6aw1 == 1 && countervr6aw3 == 1){
+    }else if (countervr6aw1 === 1 && countervr6aw3 === 1){
         document.getElementById("vr6aw3").style.border = "";
         document.getElementById("vr6aw3").style.opacity= "85%";
         countervr6aw3 = 0;
-    }else if (countervr6aw1 == 1 && countervr6aw4 == 1){
+    }else if (countervr6aw1 === 1 && countervr6aw4 === 1){
         document.getElementById("vr6aw4").style.border = "";
         document.getElementById("vr6aw4").style.opacity= "85%";
         countervr6aw4 = 0;
@@ -900,27 +898,27 @@ function Klikvr6aw1(){
 function Klikvr6aw2(){
     countervr6aw2++;
     console.log(countervr6aw2);
-    if (countervr6aw2 == 2){
+    if (countervr6aw2 === 2){
         countervr6aw2 = 0;
         console.log(countervr6aw2);
     }
-    if (countervr6aw2 == 1){
+    if (countervr6aw2 === 1){
         document.getElementById("vr6aw2").style.border = "black solid 5px"
         document.getElementById("vr6aw2").style.opacity= "100%";
-    }else if(countervr6aw2 == 0){
+    }else if(countervr6aw2 === 0){
         document.getElementById("vr6aw2").style.border = ""
         document.getElementById("vr6aw2").style.opacity= "85%";
     }
 
-    if (countervr6aw2 == 1 && countervr6aw1 == 1){
+    if (countervr6aw2 === 1 && countervr6aw1 === 1){
         document.getElementById("vr6aw1").style.border = "";
         document.getElementById("vr6aw1").style.opacity= "85%";
         countervr6aw1 = 0;
-    }else if (countervr6aw2 == 1 && countervr6aw3 == 1){
+    }else if (countervr6aw2 === 1 && countervr6aw3 === 1){
         document.getElementById("vr6aw3").style.border = "";
         document.getElementById("vr6aw3").style.opacity= "85%";
         countervr6aw3 = 0;
-    }else if (countervr6aw2 == 1 && countervr6aw4 == 1){
+    }else if (countervr6aw2 === 1 && countervr6aw4 === 1){
         document.getElementById("vr6aw4").style.border = "";
         document.getElementById("vr6aw4").style.opacity= "85%";
         countervr6aw4 = 0;
@@ -934,27 +932,27 @@ function Klikvr6aw2(){
 function Klikvr6aw3(){
     countervr6aw3++;
     console.log(countervr6aw3);
-    if (countervr6aw3 == 2){
+    if (countervr6aw3 === 2){
         countervr6aw3 = 0;
         console.log(countervr6aw3);
     }
-    if (countervr6aw3 == 1){
+    if (countervr6aw3 === 1){
         document.getElementById("vr6aw3").style.border = "black solid 5px"
         document.getElementById("vr6aw3").style.opacity= "100%";
-    }else if(countervr6aw3 == 0){
+    }else if(countervr6aw3 === 0){
         document.getElementById("vr6aw3").style.border = ""
         document.getElementById("vr6aw3").style.opacity= "85%";
     }
 
-    if (countervr6aw3 == 1 && countervr6aw1 == 1){
+    if (countervr6aw3 === 1 && countervr6aw1 === 1){
         document.getElementById("vr6aw1").style.border = "";
         document.getElementById("vr6aw1").style.opacity= "85%";
         countervr6aw1 = 0;
-    }else if (countervr6aw3 == 1 && countervr6aw2 == 1){
+    }else if (countervr6aw3 === 1 && countervr6aw2 === 1){
         document.getElementById("vr6aw2").style.border = "";
         document.getElementById("vr6aw2").style.opacity= "85%";
         countervr6aw2 = 0;
-    }else if (countervr6aw3 == 1 && countervr6aw4 == 1){
+    }else if (countervr6aw3 === 1 && countervr6aw4 === 1){
         document.getElementById("vr6aw4").style.border = "";
         document.getElementById("vr6aw4").style.opacity= "85%";
         countervr6aw4 = 0;
@@ -966,27 +964,27 @@ function Klikvr6aw3(){
 function Klikvr6aw4(){
     countervr6aw4++;
     console.log(countervr6aw4);
-    if (countervr6aw4 == 2){
+    if (countervr6aw4 === 2){
         countervr6aw4 = 0;
         console.log(countervr6aw4);
     }
-    if (countervr6aw4 == 1){
+    if (countervr6aw4 === 1){
         document.getElementById("vr6aw4").style.border = "black solid 5px"
         document.getElementById("vr6aw4").style.opacity= "100%";
-    }else if(countervr6aw4 == 0){
+    }else if(countervr6aw4 === 0){
         document.getElementById("vr6aw4").style.border = ""
         document.getElementById("vr6aw4").style.opacity= "85%";
     }
 
-    if (countervr6aw4 == 1 && countervr6aw1 == 1){
+    if (countervr6aw4 === 1 && countervr6aw1 === 1){
         document.getElementById("vr6aw1").style.border = "";
         document.getElementById("vr6aw1").style.opacity= "85%";
         countervr6aw1 = 0;
-    }else if (countervr6aw4 == 1 && countervr6aw2 == 1){
+    }else if (countervr6aw4 === 1 && countervr6aw2 === 1){
         document.getElementById("vr6aw2").style.border = "";
         document.getElementById("vr6aw2").style.opacity= "85%";
         countervr6aw2 = 0;
-    }else if (countervr6aw4 == 1 && countervr6aw3 == 1){
+    }else if (countervr6aw4 === 1 && countervr6aw3 === 1){
         document.getElementById("vr6aw3").style.border = "";
         document.getElementById("vr6aw3").style.opacity= "85%";
         countervr6aw3 = 0;
@@ -995,16 +993,16 @@ function Klikvr6aw4(){
 
 
 function Vraag6(){
-    if(countervr6aw1 == 1){
+    if(countervr6aw1 === 1){
         countervr6 = 4;
         // alert(countervr6)
-    }else if(countervr6aw2 == 1){
+    }else if(countervr6aw2 === 1){
         countervr6 = 1;
         // alert(countervr6)
-    }else if(countervr6aw3 == 1){
+    }else if(countervr6aw3 === 1){
         countervr6 = 2;
         // alert(countervr6)
-    }else if(countervr6aw4 == 1){
+    }else if(countervr6aw4 === 1){
         countervr6 = 3;
         // alert(countervr6)
     }else{
@@ -1015,8 +1013,8 @@ function Vraag6(){
 var countervr = 0;
 var foto = document.getElementById("fotoEindschermKlein");
 function Eindscherm(){
-    if(nognietIngevult > 2 ){
-        alert("Je bent een vraag(en) vergeten in te vullen.")
+    if(nognietIngevult > 0 ){
+        alert("Je hebt nog niet alle vragen ingevult.")
         nognietIngevult = 0;  
     }else{
         countervr = countervr1 + countervr2 + countervr3 + countervr4 + countervr5 + countervr6;
